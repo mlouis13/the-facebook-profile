@@ -11,9 +11,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+
 }
 main {
   border: 1px solid #3b5998;
+width: 45%;
+
 }
 .left {
   display: flex;
@@ -23,10 +26,15 @@ main {
 }
 .right {
   width: 100%;
+  
+}
+.midright{
+  display: flex;
 }
 .sanscredit {
   width: 100%;
   border: 1px solid #3b5998;
+ 
 }
 .bottomleft {
   border: dashed 1px #3b5998;
@@ -63,7 +71,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  margin: 6px;
+  margin-top: 16px;
 }
 .credit {
   margin-left: 70px;
@@ -71,7 +79,7 @@ main {
   gap: 8px;
 }
 .markcebg {
-  margin-left: 100px;
+  margin-left: 110px;
 }
 .p2 {
   margin-left: 45px;
@@ -92,4 +100,10 @@ a:hover {
 }
 input {
   width: 100%;
+}
+.rightleft{
+width: 35%;
+}
+.rightright{
+width: 65%;
 }
