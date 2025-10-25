@@ -5,7 +5,7 @@
   font-family: "Source Code Pro", monospace;
   letter-spacing: -1px;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 body {
@@ -17,12 +17,12 @@ body {
 main {
   border: 1px solid #3b5998;
   width: 45%;
-  height: 100vh;
+
 }
 .left {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 25%;
   gap: 4px;
 }
 .right {
@@ -31,11 +31,11 @@ main {
 .midright {
   display: flex;
   gap: 6px;
-  margin: 12px 6px 6px 6px;
+  margin: 16px 12px 12px 12px;
 }
 .sanscredit {
   width: 100%;
-  height: 80%;
+
   border: 1px solid #3b5998;
 }
 .bottomleft {
@@ -105,13 +105,13 @@ input {
 }
 .rightleft {
   width: 45%;
-  
+  gap: 6px;
   display: flex;
   flex-direction: column;
 }
 .rightright {
   width: 55%;
- 
+
   height: max-content;
   border: 1px solid #3b5998;
 }
@@ -148,7 +148,41 @@ tr {
 }
 .haut {
   display: flex;
+  justify-content: space-between;
 }
 .bas {
   display: flex;
+  justify-content: space-between;
+}
+.photo1 {
+  width: 100px;
+  height: 100px;
+}
+.photo2 {
+  width: 52px;
+  height: 77px;
+}
+.photo3 {
+  width: 46px;
+  height: 62px;
+}
+.photo4 {
+  width: 53px;
+  height: 38px;
+}
+.photo5 {
+  width: 68px;
+  height: 87px;
+}
+.photo6 {
+  width: 63px;
+  height: 43px;
+}
+.photo7 {
+  width: 64px;
+  height: 61px;
+}
+.center {
+  display: flex;
+  justify-content: center;
 }
