@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: "Source Code Pro", monospace;
   letter-spacing: -1px;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 body {
@@ -11,12 +13,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-
 }
 main {
   border: 1px solid #3b5998;
-width: 45%;
-
+  width: 45%;
+  height: 100vh;
 }
 .left {
   display: flex;
@@ -26,15 +27,16 @@ width: 45%;
 }
 .right {
   width: 100%;
-  
 }
-.midright{
+.midright {
   display: flex;
+  gap: 6px;
+  margin: 12px 6px 6px 6px;
 }
 .sanscredit {
   width: 100%;
+  height: 80%;
   border: 1px solid #3b5998;
- 
 }
 .bottomleft {
   border: dashed 1px #3b5998;
@@ -101,9 +103,52 @@ a:hover {
 input {
   width: 100%;
 }
-.rightleft{
-width: 30%;
+.rightleft {
+  width: 45%;
+  
+  display: flex;
+  flex-direction: column;
 }
-.rightright{
-width: 70%;
+.rightright {
+  width: 55%;
+ 
+  height: max-content;
+  border: 1px solid #3b5998;
+}
+.titre {
+  display: flex;
+  width: 100%;
+  background-color: #3b5998;
+  color: white;
+}
+.picture {
+  border: 1px solid #3b5998;
+}
+table {
+  border-collapse: collapse;
+}
+tr {
+  border: 1px solid #3b5998;
+}
+.connection {
+  border: 1px solid #3b5998;
+}
+.mutualfriend {
+  border: 1px solid #3b5998;
+}
+.Access {
+  border: 1px solid #3b5998;
+}
+.friends {
+  border: 1px solid #3b5998;
+}
+.columns {
+  display: flex;
+  flex-direction: column;
+}
+.haut {
+  display: flex;
+}
+.bas {
+  display: flex;
 }
