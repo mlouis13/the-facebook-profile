@@ -5,7 +5,7 @@
   font-family: "Source Code Pro", monospace;
   letter-spacing: -1px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 body {
@@ -21,7 +21,7 @@ main {
 .left {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 23%;
   gap: 4px;
 }
 .right {
@@ -113,16 +113,20 @@ input {
   border-radius: 0px;
 }
 .rightleft {
-  width: 45%;
+  width: 35%;
   gap: 6px;
   display: flex;
   flex-direction: column;
 }
 .rightright {
-  width: 55%;
+  width: 65%;
 
   height: max-content;
   border: 1px solid #3b5998;
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-size: 12px;
 }
 .titre {
   display: flex;
@@ -208,9 +212,10 @@ button {
 h4 {
   font-weight: bold;
 }
-.chiant {
-  font-family: "Source Code Pro", monospace;
-  letter-spacing: -1px;
-  font-weight: 400;
-  font-size: 12px;
+
+span {
+  color: black;
+}
+span:hover {
+  text-decoration: none;
 }
