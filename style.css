@@ -114,13 +114,13 @@ input {
 }
 .rightleft {
   width: 35%;
-  gap: 6px;
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
 .rightright {
   width: 65%;
-
+gap: 16px;
   height: max-content;
   border: 1px solid #3b5998;
   font-family: "Source Code Pro", monospace;
