@@ -67,6 +67,7 @@ main {
   width: 100%;
   background-color: #3b5998;
   color: white;
+  padding: 2px;
 }
 .pascentrer {
   display: flex;
@@ -96,6 +97,7 @@ a:hover {
   display: flex;
 
   width: 100%;
+
 }
 .ligne {
   display: flex;
@@ -113,14 +115,14 @@ input {
   border-radius: 0px;
 }
 .rightleft {
-  width: 35%;
+  width: 32%;
   gap: 12px;
   display: flex;
   flex-direction: column;
 }
 .rightright {
-  width: 65%;
-gap: 16px;
+  width: 68%;
+
   height: max-content;
   border: 1px solid #3b5998;
   font-family: "Source Code Pro", monospace;
@@ -133,9 +135,12 @@ gap: 16px;
   width: 100%;
   background-color: #3b5998;
   color: white;
+  padding-left: 2px;
+  padding-bottom: 2px;
 }
 .picture {
   border: 1px solid #3b5998;
+  padding: ;
 }
 table {
   border-collapse: collapse;
@@ -148,12 +153,15 @@ tr {
 }
 .mutualfriend {
   border: 1px solid #3b5998;
+  text-align: center;
 }
 .Access {
   border: 1px solid #3b5998;
+  text-align: center;
 }
 .friends {
   border: 1px solid #3b5998;
+  text-align: center;
 }
 .columns {
   display: flex;
@@ -198,13 +206,14 @@ tr {
 .center {
   display: flex;
   justify-content: center;
+  padding: 6px 0px 6px 0px;
 }
 button {
   background-color: #538adc;
   border: none;
   box-shadow: 1px 1px#3B5998;
   color: white;
-  padding: 2px 6px 0px 6px;
+  padding: 2px 8px 0px 8px;
 }
 .petit {
   width: 80%;
@@ -218,4 +227,14 @@ span {
 }
 span:hover {
   text-decoration: none;
+}
+.chiant {
+  padding: 8px;
+
+}
+.padding {
+  padding: 4px;
+}
+.droite{
+
 }
