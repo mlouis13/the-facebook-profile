@@ -17,12 +17,14 @@ body {
 main {
   border: 1px solid #3b5998;
   width: 45%;
+  
 }
 .left {
   display: flex;
   flex-direction: column;
-  width: 23%;
+  width: 20%;
   gap: 4px;
+  
 }
 .right {
   width: 100%;
@@ -44,7 +46,7 @@ main {
   display: flex;
   flex-direction: column;
   border: 1px dashed #3b5998;
-  padding: 6px 0px 6px 0px;
+  padding: 6px 4px 6px 4px;
 }
 .topleft {
   display: flex;
@@ -97,7 +99,6 @@ a:hover {
   display: flex;
 
   width: 100%;
-
 }
 .ligne {
   display: flex;
@@ -115,20 +116,16 @@ input {
   border-radius: 0px;
 }
 .rightleft {
-  width: 32%;
+  width: 35%;
   gap: 12px;
   display: flex;
   flex-direction: column;
 }
 .rightright {
-  width: 68%;
+  width: 65%;
 
   height: max-content;
   border: 1px solid #3b5998;
-  font-family: "Source Code Pro", monospace;
-  letter-spacing: -1px;
-  font-weight: 400;
-  font-size: 12px;
 }
 .titre {
   display: flex;
@@ -230,11 +227,18 @@ span:hover {
 }
 .chiant {
   padding: 8px;
-
+  display: flex;
+  gap: 4px;
+  padding: 8px;
 }
 .padding {
   padding: 4px;
 }
-.droite{
-
+.gauche {
+  display: flex;
+  flex-direction: column;
+}
+.droite {
+  display: flex;
+  flex-direction: column;
 }
