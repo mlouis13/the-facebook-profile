@@ -228,8 +228,11 @@ span:hover {
 .chiant {
   padding: 8px;
   display: flex;
+  flex-direction: column;
   gap: 4px;
   padding: 8px;
+  
+  width: 100%;
 }
 .padding {
   padding: 4px;
@@ -237,8 +240,46 @@ span:hover {
 .gauche {
   display: flex;
   flex-direction: column;
+  
 }
 .droite {
   display: flex;
   flex-direction: column;
+}
+.accountinfo{
+  display: flex;
+  gap: 44px;
+
+}
+.Basicinfo{
+display: flex;
+gap: 50px;
+}
+.contactinfo{
+  display: flex;
+  gap: 56px;
+}
+.Personnalinfo{
+  display: flex;
+  flex-direction: column;
+}
+.topinfo{
+  display: flex;
+ 
+}
+.Politicalinfo{
+  display: flex;
+  gap: 25px;
+}
+.musicinfo{
+  display: flex;
+  gap: 31px;
+}
+.moviesinfo{
+  display: flex;
+  gap: 25px;
+}
+.aboutme{
+  display: flex;
+  gap: 68px;
 }
